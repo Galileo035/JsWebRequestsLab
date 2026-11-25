@@ -1,0 +1,17 @@
+Pregunta 1.1: ¿Qué es el objeto generado por XMLHttpRequest?
+Es un objeto que permite pedirle información a una página o servicio de internet desde JavaScript, sin tener que recargar la página.
+
+Pregunta 1.2: ¿Qué hace el método open de xhr?
+Prepara la petición. Le dice qué tipo de petición es (GET) y a qué dirección se va a pedir la información, pero todavía no la envía.
+
+Pregunta 1.3: ¿Qué hace el método onload de xhr?
+Es lo que se ejecuta cuando la respuesta ya llegó. Ahí se toma la información recibida y se guarda para usarla.
+
+Pregunta 1.4: Al escribir data en la consola y presionar Enter, ¿qué muestra la consola?
+Muestra un objeto que dentro de json tiene la lista de productos que llegó de la API, cada uno con su id, título, precio, descripción y categoría.
+
+Pregunta 2: ¿Qué significa => en el código anterior?
+Es una función flecha, una forma corta de escribir una función. Lo que está antes de la flecha es lo que recibe y lo que está después es lo que hace.
+
+Pregunta 3: ¿Qué hace filter y cómo funciona includes en este contexto?
+filter recorre la lista de productos y se queda solo con los que cumplen una condición, y con eso arma una lista nueva. includes revisa si el título del producto contiene el texto que se escribió en el campo de búsqueda, y si lo contiene, ese producto se queda en la lista.
